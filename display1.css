@@ -1,0 +1,32 @@
+.heading{
+    color:blue;
+    display:block;
+}
+#one{
+     color:pink;
+    
+}
+#two{
+    color:black;
+}
+#three{
+    color:orchid;
+}
+
+.head{
+    color:blueviolet;
+}
+#four{
+    color:brown;
+}
+#five{
+    background-color: blanchedalmond;
+    color:black;
+}
+#six{
+    background-color: chocolate;
+    color:beige;
+}
+.image{
+    display:inline;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+
+            background-image:url("flower.png");
+        }
+        form{
+            background-color:blueviolet;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1 style="color:blue">My feedback form</h1>
+    <ul>
+    <form method="get" action="action.html">
+   <li> <label for="Name"><span>Tell your name </span>Name:</label> </li>
+    <input type="text" placeholder="Enter your name" required>
+    <li><label for="Email">Email: </label></li>
+    <input type="email" required>
+   <li><lable type="Password">Password: </lable></li>
+    <input type="password" required>
+    <li>Please check all the emotions that apply to you:
+        <ul type="square">
+            <li><input type="checkbox" >Angry</li>
+            <li><input type="checkbox" >Sad</li>
+            <li><input type="checkbox" >Happy</li>
+            <li><input type="checkbox" >Ambivalent</li>
+        </ul>
+    <li>How satisfied were you with our service?</li>
+    <ul>
+        <li><input type="radio" name="reaction">Very satisfied</li>
+        <li><input type="radio" name="reaction">Satisfied</li>
+        <li> <input type="radio" name="reaction">Didn't care</li>
+        <li><input type="radio" name="reaction">Dissatisfied</li>
+        <li><input type="radio" name="reaction">Very dissatisfied</li>
+    </ul>
+    <li><label type="text">Further comments:</label></li>
+    <input type="text" size="70" required><br>
+   
+      <li><label for="place">Location visited:</label></li>
+      <select id="place" name="place"><br>
+        <option value="Select location">Select location</option>
+        <option value="Bankhet-5">Bankhet-5</option>
+        <option value="Aithpur-6">Aithpur-6</option>
+        <option value="Bhasi">Bhasi</option>
+        <option value="Tilkeni">Tilkeni</option>
+        <option value="Sisaiya">Sisaiya</option>
+      </select>
+      <br>
+      <br>
+      <li><label type="text"> Bio photo:</label></li>
+      <input type="text" >
+      <button>Choose</button>
+      <br>
+      <button>Submit</button>
+
+    </li>
+    </ul>
+    </form>
+   <div
+   <p> Let me choose who i wanna be
+    Let me choose where i wanna be
+    </p>
+  <p>  Let me choose whom i wanna create
+    Let me choose what i wanna create
+    </p>
+</body>
+</html>
